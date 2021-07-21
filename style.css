@@ -1,0 +1,238 @@
+
+#topo {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.dados , .telefone, .email{
+   
+  display: flex;
+  
+}
+p{
+  margin: 0px;
+  
+}
+#navbar .nav-item active{
+  border: 1px;
+}
+#navbar ul li a{
+  font-size: 30px;
+
+}
+
+#clientes h3{
+color: #ffba00;
+}
+
+#clientes img{
+filter: grayscale(100%);
+ 
+} 
+#clientes img:hover{
+filter: grayscale(0%);
+}
+
+.hover-img {
+background-color: #000;
+color: #fff;
+display: inline-block;
+margin: 8px;
+max-width: 320px;
+min-width: 240px;
+overflow: hidden;
+position: relative;
+text-align: center;
+width: 100%;
+}
+
+.hover-img * {
+box-sizing: border-box;
+transition: all 0.45s ease;
+}
+
+.hover-img:before,
+.hover-img:after {
+background-color: rgba(0, 0, 0, 0.5);
+border-top: 32px solid rgba(0, 0, 0, 0.5);
+border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+content: '';
+transition: all 0.3s ease;
+z-index: 1;
+opacity: 0;
+transform: scaleY(2);
+}
+
+.hover-img img {
+vertical-align: top;
+max-width: 100%;
+backface-visibility: hidden;
+}
+
+.hover-img h2 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+align-items: center;
+z-index: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+line-height: 1.1em;
+opacity: 0;
+z-index: 2;
+transition-delay: 0.1s;
+font-size: 24px;
+font-family: sans-serif;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.hover-img:hover:before,
+.hover-img:hover:after {
+transform: scale(1);
+opacity: 1;
+}
+
+.hover-img:hover > img {
+opacity: 0.7;
+}
+
+.hover-img:hover h2 {
+opacity: 1;
+}
+
+
+#topo-contato {
+background: linear-gradient(to bottom, #ffba00 60%, transparent 0);
+
+}
+#topo-contato h1 {
+ color: black;
+ font-size: 6em;
+ font-weight: bold;
+text-align: center;
+}
+#topo-contato h2
+{
+font-size: 2rem;
+text-align: center;
+color: white;
+font-weight: bold;
+}
+
+
+.contato {
+ background-color: black;
+} 
+#contato p,#contato h4{
+text-align: center;
+color: white;
+}
+#rodape{
+ background-color: black;
+ color: white;
+ margin-top: 50px;
+ padding: 20px 0;
+}
+.projetos
+{
+background-color: #ffba00;
+padding: 30px;
+width: 100%;
+}
+.projetos h1{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 7.3em;
+text-align: center;
+margin: 0px;
+}
+.projetos h2{
+font-size: 3em;
+text-transform: uppercase;
+font-weight: bold;
+margin-left: 600px;
+margin-top: -30px;
+}
+.projetos h5{
+color: #fff;
+font-size: 1em;
+text-transform: uppercase;
+margin-top: 20px;
+}
+.titulo{
+ width: 100%;
+ 
+}
+.titulo h2{
+   
+color: #000;
+margin: 0px;
+font-size: 6em;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+margin-right: 170px;
+
+}
+.titulo h3{
+color: #000;
+text-transform: uppercase;
+font-size: 3.5em;
+margin-top: -25px;
+text-align: center;
+}
+
+#trabalhamos h3{
+color: #fff;
+font-weight: bolder;
+}
+.trabalhamos{
+ background-color: #ffba00;
+  padding: 20px 50px;
+}
+.owl-item .borda-img img{
+ background-color: #fff;
+ padding: 10px;
+ border-radius: 10px;
+}
+.owl-item .item{
+ margin: 5px 5px;
+ 
+  
+}
+#rodape h4{
+color:#ffba00;
+}
+#rodape i{
+ color: white;
+}
+
+#depoimento{
+ background-color: black;
+ color: white;
+ 
+}
+#depoimento h3{
+font-size: 60px;
+font-weight: bolder;
+}
+
+#depoimento span{
+color:#ffba00;
+}
+.owl-carousel1 .item{
+  display: flex;
+  
+}
+
