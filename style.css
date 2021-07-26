@@ -1,4 +1,11 @@
-
+@media (max-width: 768px) {
+  .dados , .telefone p, .email p{
+    flex-direction: column;
+  }
+  .email p{
+    margin-left: 0px;
+  }
+}
 #topo {
   background-color: black;
   color: white;
